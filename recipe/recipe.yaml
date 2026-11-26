@@ -29,6 +29,8 @@ requirements:
     - psutil
     - python >=${{ python_min }}
     - qgis >=3.40.0
+  run_constraints:
+    - arosics =1.9.2  # scikit-image version pinning out of sync (relevant for python<=3.11)
 
 tests:
   - python:
