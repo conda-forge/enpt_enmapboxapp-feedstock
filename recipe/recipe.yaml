@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - enmapbox-lite
-    - enpt
+    - enpt >=1.5.0
     - packaging
     - psutil
     - python >=${{ python_min }}
