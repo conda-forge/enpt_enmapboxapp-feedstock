@@ -22,11 +22,13 @@ requirements:
     - hatchling 
     - python ${{ python_min }}.*
     - pip
-    - packaging
   run:
-    - python >=${{ python_min }}
+    - enmapbox-lite
+    - enpt
     - packaging
     - psutil
+    - python >=${{ python_min }}
+    - qgis >=3.40.0
 
 tests:
   - python:
